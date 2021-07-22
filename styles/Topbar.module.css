@@ -1,0 +1,26 @@
+.topbar {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.topbar
+.opensidebar {
+    float: right;
+    color: #0070f3;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.8;
+    user-select: none;
+    padding-right: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topbar
+.opensidebar:hover {
+    opacity: 1;
+}
